@@ -31,6 +31,10 @@ class Locators(object):
         # closes a web-browser tab
         self.driver.close()
 
+    def element_visibility(self, element):
+        # verifies if the element given as an argument displayed on the screen
+        # names of elements are given here as locators below
+        return self.driver.find_element(*element).is_displayed()
 
 # Header
     homeHeader = (By.LINK_TEXT, 'Home')

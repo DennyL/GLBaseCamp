@@ -18,5 +18,3 @@ class LoginRegisterPage(Locators):
         self.driver.find_element(*self.registrationPassword).send_keys(password)
         self.driver.find_element(*self.createAccountButton).click()
 
-
-

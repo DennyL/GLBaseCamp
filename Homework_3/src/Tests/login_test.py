@@ -19,5 +19,4 @@ def test_realCredentials(initial_actions):
     email, password = "dexter@y.ru", "12345"
     page.login(email, password)
     # if "Logout" button is displayed on the Header, logging in is successfully done
-    element = page.driver.find_element_by_link_text("Logout")
-    assert element.is_displayed() is True
+    assert page.element_visibility(page.logoutHeader) is True
