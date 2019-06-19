@@ -20,3 +20,4 @@ def test_realCredentials(initial_actions):
     page.login(email, password)
     # if "Logout" button is displayed on the Header, logging in is successfully done
     assert page.element_visibility(page.logoutHeader) is True
+

@@ -1,4 +1,5 @@
 import pytest
+import allure
 from src.PageObject.Pages.LoginRegister import LoginRegisterPage
 
 page = LoginRegisterPage()
@@ -14,10 +15,10 @@ def initial_actions():
         page.closeApp()
 
 
+@allure.step
 def test_registration(initial_actions):
     # new account creation ability verification
     page.create_an_account('raw@ya.net', '12345')
-    # if "Logout" button is displayed on the Header, logging in is fulfilled
-    element = page.driver.find_element_by_link_text("Logout")
-    assert element.is_displayed() is True
+    # if "Logout" button is displayed on the Header, logging in is successfully done
+    assert page.element_visibility(page.logoutHeader) is True
 
