@@ -1,4 +1,5 @@
 import pytest
+import allure
 from src.PageObject.Pages.HomePage import HomePage
 
 page = HomePage()
@@ -11,6 +12,7 @@ def initial_actions():
     page.closeApp()
 
 
+@allure.step
 def test_notes(initial_actions):
     page.addTitle('My new note')
     page.addContent('Some text')

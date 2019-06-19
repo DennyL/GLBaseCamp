@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 class Locators(object):
 
     """
-    contains basic web-driver operations functions,
+    contains basic web-driver operations functions, common to all pages operations,
     and locators of all buttons and fields of the http://anotepad.com web application
     """
 
@@ -39,10 +39,13 @@ class Locators(object):
         except:
             return False
 
+
 # Header
     homeHeader = (By.LINK_TEXT, 'Home')
     registerLoginHeader = (By.LINK_TEXT, 'Register/Login')
     logoutHeader = (By.LINK_TEXT, 'Logout')
+    featuresHeader = (By.LINK_TEXT, 'Features')
+    aboutHeader = (By.LINK_TEXT, 'About')
 
 # Home page locators
     noteTitle = (By.ID, 'edit_title')
@@ -60,5 +63,5 @@ class Locators(object):
     loginEmail = (By. ID, 'loginEmail')
     loginPassword = (By. CSS_SELECTOR, 'input[placeholder= "Enter Password"]')
     loginButton = (By. XPATH, '//button[contains(.,"Login")]')
-    rememberMe = (By. XPATH, '//*[@id="create_login"]/div[2]/form/div[3]/div/div/label/input')
+    rememberMe = (By. CSS_SELECTOR, 'input[name="remember"]')
     forgotPassword = (By. LINK_TEXT, 'Forgot password?')

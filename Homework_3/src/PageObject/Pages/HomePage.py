@@ -3,6 +3,9 @@ from src.PageObject.Locators import Locators
 
 class HomePage(Locators):
 
+    def jump_to_home_page(self):
+        self.driver.find_element(*self.homeHeader).click()
+
     def addTitle(self, title):
         self.driver.find_element(*self.noteTitle).send_keys(title)
 
