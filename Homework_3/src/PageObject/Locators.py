@@ -40,6 +40,10 @@ class Locators(object):
             return False
 
 
+################
+#   LOCATORS   #
+################
+
 # Header
     homeHeader = (By.LINK_TEXT, 'Home')
     registerLoginHeader = (By.LINK_TEXT, 'Register/Login')

@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f6267c-c628-4b86-9905-682b86ddbe0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PageObject/Pages/AboutPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PageObject/Pages/FeaturesPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PageObject/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/Locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/notes_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/notes_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/52167c87-66c6-4ad6-bf72-5f28f7b2aff3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/e0230798-f1fb-406b-82ed-c831d6560e57-container.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tests/login_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,13 +32,14 @@
       <list>
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/src/Tests/registration_test.py" />
-        <option value="$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py" />
         <option value="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/src/Tests/notes_test.py" />
         <option value="$PROJECT_DIR$/src/PageObject/Pages/FeaturesPage.py" />
-        <option value="$PROJECT_DIR$/src/PageObject/Locators.py" />
         <option value="$PROJECT_DIR$/src/PageObject/Pages/AboutPage.py" />
+        <option value="$PROJECT_DIR$/src/PageObject/Locators.py" />
+        <option value="$PROJECT_DIR$/src/Tests/conftest.py" />
         <option value="$PROJECT_DIR$/src/Tests/login_test.py" />
+        <option value="$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py" />
       </list>
     </option>
   </component>
@@ -87,7 +72,7 @@
               <item name="Homework_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Homework_3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,6 +83,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="G:/Selenium/GLBaseCamp" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,12 +129,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560947732577</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page Object update and a little more">
+      <created>1560960250850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560960250850</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13913691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -161,7 +153,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6348123" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6348123" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -172,31 +164,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Third HW" />
     <MESSAGE value="Updated Locators\element_visibility() function to always return either True or False and not to fail at an exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Locators\element_visibility() function to always return either True or False and not to fail at an exception" />
+    <MESSAGE value="Page Object update and a little more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Object update and a little more" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/HomePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/registration_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/notes_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -215,13 +188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/AboutPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -229,22 +195,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/Locators.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        <state relative-caret-position="144">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/login_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        <state relative-caret-position="552">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/registration_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/Locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
