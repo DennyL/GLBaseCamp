@@ -12,7 +12,7 @@ def initial_actions():
     page.closeApp()
 
 
-@allure.step
+@allure.title('GL-242:F-15.2: Non-registered users. Creating notes ability verification')
 def test_notes(initial_actions):
     page.addTitle('My new note')
     page.addContent('Some text')
