@@ -17,3 +17,4 @@ def test_notes(initial_actions):
     page.addTitle('My new note')
     page.addContent('Some text')
     page.saveThis()
+

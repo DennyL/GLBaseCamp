@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5f6267c-c628-4b86-9905-682b86ddbe0b" name="Default Changelist" comment="Reports folder">
+    <list default="true" id="c5f6267c-c628-4b86-9905-682b86ddbe0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tests/test_delete_note.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/notes_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/notes_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/registration_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/registration_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageObject/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/20dad5e3-5186-4c15-801f-604b9cbd9412-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/54e65edc-1a11-4e29-a618-683277f02cb3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/6228efce-3d07-4bb6-9d15-82b978d0b811-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/69f6c7c5-6249-4434-b604-6e5811d365d6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/b6f4d80d-3bc9-4748-ba51-eff5b4c450c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reports/c83e403a-68ad-46a0-934c-baf970fbf6a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test_logging_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/notes_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test_notes_creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/registration_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/test_user_registration.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,36 +23,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tests/login_test.py">
+        <entry file="file://$PROJECT_DIR$/src/Tests/test_delete_note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/registration_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="96" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/notes_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="400">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -67,16 +52,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/src/PageObject/Pages/FeaturesPage.py" />
         <option value="$PROJECT_DIR$/src/PageObject/Pages/AboutPage.py" />
-        <option value="$PROJECT_DIR$/src/PageObject/Locators.py" />
         <option value="$PROJECT_DIR$/src/Tests/conftest.py" />
         <option value="$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py" />
         <option value="$PROJECT_DIR$/src/pytest.ini" />
-        <option value="$PROJECT_DIR$/src/Tests/notes_test.py" />
         <option value="$PROJECT_DIR$/src/Tests/registration_test.py" />
         <option value="$PROJECT_DIR$/src/Tests/login_test.py" />
+        <option value="$PROJECT_DIR$/src/Tests/notes_test.py" />
+        <option value="$PROJECT_DIR$/src/PageObject/Locators.py" />
+        <option value="$PROJECT_DIR$/src/PageObject/Pages/HomePage.py" />
+        <option value="$PROJECT_DIR$/src/Tests/deletenote_test.py" />
+        <option value="$PROJECT_DIR$/src/Tests/delete_note_test.py" />
+        <option value="$PROJECT_DIR$/src/Tests/test_delete.py" />
       </list>
     </option>
   </component>
@@ -100,6 +88,17 @@
               <item name="Homework_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Homework_3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Homework_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -109,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="G:/Selenium/GLBaseCamp" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -129,6 +128,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="delete_note_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Homework_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="G:\GitHub\GLBaseCamp\Homework_3\src\Tests\test_delete_note.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.delete_note_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -176,24 +203,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561026799929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created pytest.ini file, where registered all allure marks as customs, to avoid pytest error messages while running tests with @allure.title decorators and others from allure module">
+      <created>1561031610419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561031610419</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13913691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18526785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6348123" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6348123" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -205,7 +239,8 @@
     <MESSAGE value="Third HW" />
     <MESSAGE value="Updated Locators\element_visibility() function to always return either True or False and not to fail at an exception" />
     <MESSAGE value="Page Object update and a little more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Object update and a little more" />
+    <MESSAGE value="Created pytest.ini file, where registered all allure marks as customs, to avoid pytest error messages while running tests with @allure.title decorators and others from allure module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created pytest.ini file, where registered all allure marks as customs, to avoid pytest error messages while running tests with @allure.title decorators and others from allure module" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conftest.py">
@@ -225,26 +260,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/HomePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/conftest.py" />
     <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/LoginRegister.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -252,41 +268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/Locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/notes_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/registration_test.py">
+    <entry file="file://$PROJECT_DIR$/src/Tests/test_user_registration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="96" />
@@ -296,10 +278,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/login_test.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/test_logging_in.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
+        <state relative-caret-position="552">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/test_notes_creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/Pages/HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/Locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#163#344#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/test_delete_note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

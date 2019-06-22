@@ -55,8 +55,9 @@ class Locators(object):
     noteTitle = (By.ID, 'edit_title')
     noteContent = (By.ID, 'edit_textarea')
     saveButton = (By.ID, 'btnSaveNote')
-    addNewNoteButton = (By. LINK_TEXT, 'Add New Note')
-    deleteButton = (By. CSS_SELECTOR, '.delete')
+    addNewNoteButton = (By.LINK_TEXT, 'Add New Note')
+    deleteButton = (By.CSS_SELECTOR, '.delete')
+    savedNotesBlock = (By.CLASS_NAME, 'saved_notes')
 
 # Registration locators
     registrationEmail = (By. ID, 'registerEmail')

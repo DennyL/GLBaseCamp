@@ -1,4 +1,6 @@
 from src.PageObject.Locators import Locators
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
 
 
 class HomePage(Locators):
@@ -16,12 +18,25 @@ class HomePage(Locators):
         self.driver.find_element(*self.saveButton).click()
 
     def deleteNote(self):
-        pass
+        self.driver.find_element(*self.deleteButton).click()
+        # waiting for the deleting confirmation alert being displayed. In case it isn't - report
+        # this step is to help us see what caused the second verification failure if it did
+        try:
+            WebDriverWait(self.driver, 5).until(ec.alert_is_present())
+            del_alert = self.driver.switch_to.alert
+            del_alert.accept()
+            print("-- delete confirmation alert accepted --")
+        except:
+            print("-- delete confirmation alert failed to display --")
 
     def addNewNote(self):
         self.driver.find_element(*self.addNewNoteButton).click()
 
+    def createNote(self, title='Test Note', content='My Test Note Content'):
+        self.jump_to_home_page()
+        self.addTitle(title)
+        self.addContent(content)
+        self.saveThis()
 
-
-
-
+    def savedNotesBlockText(self):
+        return self.driver.find_element(*self.savedNotesBlock).text
