@@ -50,6 +50,7 @@ class Locators(object):
     logoutHeader = (By.LINK_TEXT, 'Logout')
     featuresHeader = (By.LINK_TEXT, 'Features')
     aboutHeader = (By.LINK_TEXT, 'About')
+    settingsHeader = (By.LINK_TEXT, 'Settings')
 
 # Home page locators
     noteTitle = (By.ID, 'edit_title')
@@ -70,3 +71,7 @@ class Locators(object):
     loginButton = (By. XPATH, '//button[contains(.,"Login")]')
     rememberMe = (By. CSS_SELECTOR, 'input[name="remember"]')
     forgotPassword = (By. LINK_TEXT, 'Forgot password?')
+
+# Settings locators
+    deleteAccountCheckbox = (By.CSS_SELECTOR, 'input[id="confirmDeleteAccount"]')
+    deleteAccountButton = (By.CSS_SELECTOR, 'input[id="btnDeleteAccount"]')

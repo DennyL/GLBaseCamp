@@ -5,7 +5,7 @@ from src.PageObject.Pages.HomePage import HomePage
 page = HomePage()
 
 
-@pytest.fixture()
+@pytest.fixture
 def initial_actions():
     page.openApp()
     page.createNote()

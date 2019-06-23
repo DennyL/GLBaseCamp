@@ -1,7 +1,7 @@
-from src.PageObject.Locators import Locators
+from src.PageObject.Pages.SettingsPage import SettingsPage
 
 
-class LoginRegisterPage(Locators):
+class LoginRegisterPage(SettingsPage):
 
     def jump_to_registerLogin_page(self):
         self.driver.find_element(*self.registerLoginHeader).click()

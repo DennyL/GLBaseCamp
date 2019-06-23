@@ -5,7 +5,7 @@ from src.PageObject.Pages.LoginRegister import LoginRegisterPage
 page = LoginRegisterPage()
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture
 def initial_actions():
     page.openApp()
     yield
