@@ -20,3 +20,4 @@ def test_notes_creation_nr(initial_actions):
     assert page.alert_creating_notes_as_unregistered() == "You have saved your note as a Guest User. You can come back at anytime to continue editing as long as you don't delete your browser cookies. To access your notes from anywhere and never lose them, please Create a Free Account. Your existing notes will be saved into your account."
     # now, verification that the note title is displayed among the saved notes. For this we use new_note variable
     assert page.element_visibility(new_note) is True
+
