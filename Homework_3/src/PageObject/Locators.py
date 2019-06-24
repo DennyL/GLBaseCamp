@@ -59,6 +59,7 @@ class Locators(object):
     addNewNoteButton = (By.LINK_TEXT, 'Add New Note')
     deleteButton = (By.CSS_SELECTOR, '.delete')
     savedNotesBlock = (By.CLASS_NAME, 'saved_notes')
+    msg_creatingNotesAsUnregistered = (By.XPATH, '/html/body/div[2]/div/p[1]')
 
 # Registration locators
     registrationEmail = (By. ID, 'registerEmail')

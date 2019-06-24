@@ -1,6 +1,7 @@
 from src.PageObject.Locators import Locators
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.common.by import By
 
 
 class HomePage(Locators):
@@ -37,6 +38,13 @@ class HomePage(Locators):
         self.addTitle(title)
         self.addContent(content)
         self.saveThis()
+        # wait till the note's title is displayed among the saved notes
+        WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located((By.LINK_TEXT, title)))
+        return By.LINK_TEXT, title
 
     def savedNotesBlockText(self):
         return self.driver.find_element(*self.savedNotesBlock).text
+
+    def alert_creating_notes_as_unregistered(self):
+        return self.driver.find_element(*self.msg_creatingNotesAsUnregistered).text
+
