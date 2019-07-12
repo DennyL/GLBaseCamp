@@ -76,3 +76,4 @@ class Locators(object):
 # Settings locators
     deleteAccountCheckbox = (By.CSS_SELECTOR, 'input[id="confirmDeleteAccount"]')
     deleteAccountButton = (By.CSS_SELECTOR, 'input[id="btnDeleteAccount"]')
+

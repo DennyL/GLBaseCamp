@@ -17,3 +17,4 @@ def initial_actions():
 def test_delete(initial_actions):
     page.deleteNote()
     assert page.savedNotesBlockText() == 'No note here.'
+
