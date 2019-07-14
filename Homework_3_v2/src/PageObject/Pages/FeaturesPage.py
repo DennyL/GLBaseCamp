@@ -1,7 +1,5 @@
-from src.PageObject.Locators import Locators
+from src.PageObject import Locators as l
 
 
-class FeaturesPage(Locators):
-
-    def jump_to_features_page(self):
-        self.driver.find_element(*self.featuresHeader).click()
+def jump_to_features_page():
+    l.driver.find_element(*l.featuresHeader).click()

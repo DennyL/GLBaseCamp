@@ -1,7 +1,5 @@
-from src.PageObject.Locators import Locators
+from src.PageObject import Locators as l
 
 
-class AboutPage(Locators):
-
-    def jump_to_about_page(self):
-        self.driver.find_element(*self.aboutHeader).click()
+def jump_to_about_page():
+    l.driver.find_element(*l.aboutHeader).click()
