@@ -15,7 +15,6 @@ def initial_actions():
 @allure.title('GL-497:F-180: Logging in with correct Email and Password')
 def test_realCredentials(initial_actions):
     # logging in with existing credentials ability verification
-    #email, password = "dexter@y.ru", "12345"
     lrp.login(td.existing_test_login[0], td.existing_test_password[0])
     # if "Logout" button is displayed on the Header, logging in is successfully done
     assert l.element_visibility(l.logoutHeader) is True, 'Logout button was not displayed'

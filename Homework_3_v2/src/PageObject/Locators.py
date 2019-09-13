@@ -78,3 +78,7 @@ forgotPassword = (By. LINK_TEXT, 'Forgot password?')
 # Settings locators
 deleteAccountCheckbox = (By.CSS_SELECTOR, 'input[id="confirmDeleteAccount"]')
 deleteAccountButton = (By.CSS_SELECTOR, 'input[id="btnDeleteAccount"]')
+
+
+# alerts raised by the app, texts
+alert_creating_notes_as_unregistered = "You have saved your note as a Guest User. You can come back at anytime to continue editing as long as you don't delete your browser cookies. To access your notes from anywhere and never lose them, please Create a Free Account. Your existing notes will be saved into your account."
